@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/VerificationCode"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/fui_buttonShadow"
+            android:ems="10"
+            android:hint="Enter Verification Code here"
+            android:inputType="number"
+            android:padding="10px"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btnPhone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.672" />
+
+        <EditText
+            android:id="@+id/btnPhone"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@color/fui_buttonShadow"
+            android:ems="10"
+            android:hint="Phone Number eg +233 012 302 93"
+            android:inputType="phone"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343" />
+
+        <EditText
+            android:id="@+id/btnUsername"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/fui_buttonShadow"
+            android:ems="10"
+            android:hint="Enter your full name"
+            android:inputType="text|textShortMessage"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPhone"
+            app:layout_constraintVertical_bias="0.003" />
+
+        <EditText
+            android:id="@+id/btnEmail"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/fui_buttonShadow"
+            android:ems="10"
+            android:hint="Enter Email here"
+            android:inputType="textWebEmailAddress"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnUsername"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_marginBottom="172dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Verify"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="@+id/btnPhone"
+            app:layout_constraintTop_toBottomOf="@+id/btnEmail"
+            app:layout_constraintVertical_bias="0.391" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
