@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825988177018",
+    "firebase_url": "https://emergency-9804e.firebaseio.com",
+    "project_id": "emergency-9804e",
+    "storage_bucket": "emergency-9804e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825988177018:android:f85413860ac45173",
+        "android_client_info": {
+          "package_name": "com.emergency.joy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825988177018-6a0nhqm8lqk481vu6o9f23hslkf6o1rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emergency.joy",
+            "certificate_hash": "f5584a9e59faec6366ad9bb29be8d74dc807f4db"
+          }
+        },
+        {
+          "client_id": "825988177018-e8t5bsev25ip8ht6ghvuthpdsc4arqru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDqBz20GPjKF2bBTtrv_2w5k2T9h4VBnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825988177018-e8t5bsev25ip8ht6ghvuthpdsc4arqru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
