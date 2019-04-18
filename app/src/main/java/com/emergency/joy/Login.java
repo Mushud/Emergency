@@ -147,6 +147,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Signed In", Toast.LENGTH_SHORT).show();
                     Emergency.mySharedPreferenceEditor.putString(Emergency.phoneNumber, mPhoneNumber.getText().toString());
                     Emergency.mySharedPreferenceEditor.putBoolean(Emergency.SignIn, true);
+                    Emergency.mySharedPreferenceEditor.apply();
                     finish();
                     startActivity(new Intent(Login.this, MainActivity.class));
                 }else{
