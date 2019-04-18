@@ -121,12 +121,9 @@ public class Login extends AppCompatActivity {
                     }else {
                         mUsername.setError("Please Enter you Full Name");
                     }
-
                 }
             }
         });
-
-
     }
 
     private void startPhoneVerification(String PhoneNumber){
@@ -150,12 +147,8 @@ public class Login extends AppCompatActivity {
                 }else{
                     Log.w("TAG", "signInWithCredential:failure", task.getException());
                     if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
-
                     }
-
                 }
-
-
             }
         });
     }
