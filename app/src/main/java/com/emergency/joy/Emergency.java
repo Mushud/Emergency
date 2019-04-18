@@ -7,9 +7,10 @@ import android.content.SharedPreferences;
 public class Emergency extends Application {
 
     private SharedPreferences mySharedPreference;
-    private SharedPreferences.Editor mySharedPreferenceEditor;
+    public static SharedPreferences.Editor mySharedPreferenceEditor;
     private String MyPreference = "MyDataPreference";
-    public String  SignIn = "SIGNIN";
+    public static String  SignIn = "SIGNIN";
+    public  static String phoneNumber = "Phone";
 
     private boolean hasSignedIn(){
         return mySharedPreference.getBoolean(SignIn, false);
